@@ -1,0 +1,5 @@
+<svg class="-normal -close-button" width="24" height="24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs><symbol id="icon-24-close-small" viewBox="0 0 24 24">
+				<path d="M7.07977 17.8367L6.16992 16.9268L11.1091 11.9876L6.16992 7.07977L7.07977 6.16992L12.0189 11.1091L16.9268 6.16992L17.8367 7.07977L12.8975 11.9876L17.8367 16.9268L16.9268 17.8367L12.0189 12.8975L7.07977 17.8367Z"></path>
+	</symbol></defs>
+							<use href="#icon-24-close-small"></use>
+						</svg>
