@@ -1,8 +1,0 @@
-<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px;">
-    <style>
-      @keyframes chatbase-spin { 100% { transform: rotate(360deg); } }
-      @keyframes chatbase-dash { 0% { stroke-dasharray: 1, 150; stroke-dashoffset: 0; } 50% { stroke-dasharray: 90, 150; stroke-dashoffset: -35; } 100% { stroke-dasharray: 90, 150; stroke-dashoffset: -124; } }
-      .chatbase-spinner { animation: chatbase-spin 2s linear infinite, chatbase-dash 1.5s ease-in-out infinite; transform-origin: center; }
-    </style>
-    <circle class="chatbase-spinner" cx="12" cy="12" r="10" fill="none" stroke="black" stroke-width="2.5" stroke-linecap="round"></circle>
-  </svg>
