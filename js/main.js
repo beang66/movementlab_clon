@@ -39,6 +39,8 @@
     }
   }
 
+  // DOMContentLoaded 시점에는 비동기 partial이 아직 없을 수 있으므로 로드 완료 이벤트에서도 초기화한다.
+  // heroInitialized/arrivalsInitialized가 두 이벤트 사이의 중복 Swiper 생성을 방지한다.
   document.addEventListener('DOMContentLoaded', initMain);
   document.addEventListener('components:loaded', initMain);
 })();
